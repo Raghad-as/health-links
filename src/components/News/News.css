@@ -1,0 +1,43 @@
+body h3 { 
+    text-align: center;
+    color: var(--primary-color);
+    padding-bottom: 40px;
+}
+body .card-news {
+    background-color: #FAFAFA;
+    padding: 100px 0 120px 0;
+}
+body .card {
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px var(--border-color);
+}
+
+body .card img {
+      border-radius: 20px 20px 0 0;
+      height: 250px;
+}
+
+body .card-body{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+body .card-body .card-title {
+    margin-bottom: 10px;
+}
+
+body .card button {
+    background-color: white;
+    padding: 0 30px 0px 30px;
+    margin-top: 20px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  
+  body .card  button:hover {
+    background-color: var(--button-hover);
+    color:white;
+  }

@@ -1,0 +1,48 @@
+#tsparticles {
+    position: fixed;
+    margin: 0px;
+    height: 800px;
+    z-index: -1;
+  }
+
+header .row {
+  margin: 150px 0px;
+}
+
+header .row h5 {
+  font-size: 20px;
+  margin: 40px 0px 10px 0px;
+}
+
+header h2 {
+  color: var(--primary-color);
+  font-size: 50px;
+  margin: 30px 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+header button {
+  background-color: var(--primary-color);
+  width: 180px;
+  height: 46px;
+  border-color: var(--primary-color);
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+header button a {
+  color: white;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+header button:hover a {
+  color: white;
+}
+
+header button:hover {
+  background-color: var(--button-hover);
+  opacity: 0.8px;
+}
